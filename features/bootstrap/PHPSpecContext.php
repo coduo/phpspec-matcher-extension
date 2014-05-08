@@ -5,7 +5,7 @@ use Behat\Gherkin\Node\PyStringNode;
 use Symfony\Component\Filesystem\Filesystem;
 use PhpSpec\Console\Application;
 
-class PHPSpecContext extends BehatContext
+class PhpSpecContext extends BehatContext
 {
     /**
      * @var string
@@ -26,7 +26,7 @@ class PHPSpecContext extends BehatContext
         $this->workDir = sprintf(
             '%s/%s/',
             sys_get_temp_dir(),
-            uniqid('PHPSpecMatcherExtension')
+            uniqid('PhpSpecMatcherExtension')
         );
         $fs = new Filesystem();
         $fs->mkdir($this->workDir, 0777);

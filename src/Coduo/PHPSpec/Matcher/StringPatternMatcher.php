@@ -1,6 +1,6 @@
 <?php
 
-namespace Coduo\PHPSpec\Matcher;
+namespace Coduo\PhpSpec\Matcher;
 
 use Coduo\PHPMatcher\Matcher;
 use PhpSpec\Exception\Example\FailureException;

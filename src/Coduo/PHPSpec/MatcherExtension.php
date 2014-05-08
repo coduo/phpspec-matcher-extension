@@ -1,9 +1,9 @@
 <?php
 
-namespace Coduo\PHPSpec;
+namespace Coduo\PhpSpec;
 
 use Coduo\PHPMatcher\Matcher;
-use Coduo\PHPSpec\Runner\Maintainer\StringPatternMatcherMaintainer;
+use Coduo\PhpSpec\Runner\Maintainer\StringPatternMatcherMaintainer;
 use PhpSpec\Extension\ExtensionInterface;
 use PhpSpec\ServiceContainer;
 
