@@ -16,8 +16,8 @@
     "require": {
         "php": ">=5.3.0",
         "coduo/php-matcher": "1.0.*@dev",
-        "coduo/php-to-string": "1.0.*@dev",
-        "phpspec/phpspec": "2.0.*"
+        "coduo/php-to-string": "~0.1",
+        "phpspec/phpspec": "*"
     },
     "require-dev": {
         "behat/behat": "2.4.*@stable",
