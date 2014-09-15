@@ -1,6 +1,6 @@
 <?php
 
-namespace  Coduo\PhpSpec\Runner\Maintainer;
+namespace  Coduo\PhpSpec\Matcher\Runner\Maintainer;
 
 use Coduo\PHPMatcher\Matcher as CoduoMatcher;
 use Coduo\PhpSpec\Matcher\StringPatternMatcher;

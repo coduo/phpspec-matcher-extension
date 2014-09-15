@@ -15,17 +15,16 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "coduo/php-matcher": "1.0.*@dev",
-        "coduo/php-to-string": "~0.1",
-        "phpspec/phpspec": "*"
+        "coduo/php-matcher": "1.0.*",
+        "phpspec/phpspec": "2.0.*"
     },
     "require-dev": {
         "behat/behat": "2.4.*@stable",
         "symfony/filesystem": "~2.3",
-        "bossa/phpspec2-expect": "dev-master"
+        "bossa/phpspec2-expect": "1.0.*"
     },
     "autoload": {
-        "psr-0": { "Coduo\\PhpSpec": "src/"}
+        "psr-0": { "Coduo": "src/"}
     },
     "config": {
         "bin-dir": "bin"

@@ -49,7 +49,7 @@ class PhpSpecContext extends BehatContext
     {
         $phpspecyml = <<<YML
 extensions:
-  - Coduo\PhpSpec\MatcherExtension
+  - Coduo\PhpSpec\Matcher\Extension
 YML;
 
         file_put_contents($this->workDir.'phpspec.yml', $phpspecyml);

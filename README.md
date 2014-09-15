@@ -8,8 +8,7 @@ Add to your composer.json
 
 ```
 require: {
-   "coduo/phpspec-matcher-extension": "dev-master",
-   "coduo/php-to-string": "1.0.*@dev"
+   "coduo/phpspec-matcher-extension": "dev-master"
 }
 ```
 
@@ -20,7 +19,7 @@ Configure phpspec
 ```
 # phpspec.yml
 extensions:
-  - Coduo\PhpSpec\MatcherExtension
+  - Coduo\PhpSpec\Matcher\Extension
 ```
 
 Write spec:

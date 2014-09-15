@@ -1,13 +1,13 @@
 <?php
 
-namespace Coduo\PhpSpec;
+namespace Coduo\PhpSpec\Matcher;
 
 use Coduo\PHPMatcher\Matcher;
-use Coduo\PhpSpec\Runner\Maintainer\StringPatternMatcherMaintainer;
+use Coduo\PhpSpec\Matcher\Runner\Maintainer\StringPatternMatcherMaintainer;
 use PhpSpec\Extension\ExtensionInterface;
 use PhpSpec\ServiceContainer;
 
-class MatcherExtension implements ExtensionInterface
+class Extension implements ExtensionInterface
 {
     /**
      * @param ServiceContainer $container
